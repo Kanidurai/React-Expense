@@ -1,0 +1,91 @@
+h1{
+  letter-spacing: 1px;
+  margin: 0;
+  color: violet;
+  font-size: 40px;
+  font-weight: 400;
+  display: block;
+}
+#div1{
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+}
+#income{
+  position: relative;
+  display: flex;
+  text-align: center;
+  top: 10px;
+  left: 30px;
+}
+h4{
+  position: relative;
+  display: flex;
+  text-align: center;
+  top: 10px;
+  left: 65px;
+}
+#p1{
+  color: green;
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+#p2{
+  position: relative;
+  color: red;
+  top: 50px;
+  left: -15px;
+}
+#div1>div:first-of-type{
+  /* flex-direction: left; */
+  border-left: solid;
+  text-align: center;
+  border-spacing: 0;
+  /* border-left: 100px; */
+}
+#div1>div{
+  flex: 1 1;
+  display: block;
+  /* text-align: center; */
+}
+button{
+  color: white;
+  width: 180px;
+  height: 30px;
+  background-color: darkviolet;
+}
+#input1{
+  position: relative;
+  top: 120px;
+  left: -100px;
+  background-color:chartreuse ;
+  color:darkmagenta;
+}
+h3{
+  position: relative;
+  top: 10px;
+}
+h2{
+  position: relative;
+  top: 20px;
+}
+#input2{
+  position: relative;
+  top: 20px;
+}
+#h3{
+  position: relative;
+  top: 50px;
+}
+#input3{
+  position: relative;
+  top: 40px;
+  left: 65px;
+}
+#table{
+  position: relative;
+  top: 100px;
+}
