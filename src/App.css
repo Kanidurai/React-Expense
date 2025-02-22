@@ -1,91 +1,126 @@
-h1{
-  letter-spacing: 1px;
+/* General Styles */
+body {
+  background-color: #f8d7da;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
+}
+
+/* Container */
+center {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Header */
+h1 {
   color: violet;
   font-size: 40px;
-  font-weight: 400;
-  display: block;
+  font-weight: 600;
 }
-#div1{
-  position: relative;
+
+/* Balance Section */
+#div1 {
   display: flex;
-  width: 300px;
-  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
   border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
-#income{
-  position: relative;
-  display: flex;
-  text-align: center;
-  top: 10px;
-  left: 30px;
+
+/* Income & Expense */
+h4 {
+  margin: 0;
+  font-size: 18px;
 }
-h4{
-  position: relative;
-  display: flex;
-  text-align: center;
-  top: 10px;
-  left: 65px;
-}
-#p1{
+
+#p1 {
   color: green;
-  position: relative;
-  top: 50px;
-  right: 50px;
+  font-weight: bold;
 }
-#p2{
-  position: relative;
+
+#p2 {
   color: red;
-  top: 50px;
-  left: -15px;
+  font-weight: bold;
 }
-#div1>div:first-of-type{
-  /* flex-direction: left; */
-  border-left: solid;
-  text-align: center;
-  border-spacing: 0;
-  /* border-left: 100px; */
+
+/* Form Section */
+input {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-#div1>div{
-  flex: 1 1;
-  display: block;
-  /* text-align: center; */
+
+#input1 {
+  background-color: chartreuse;
+  color: darkmagenta;
+  font-weight: bold;
 }
-button{
+
+/* Expense Table */
+#table {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background-color: purple;
   color: white;
-  width: 180px;
-  height: 30px;
-  background-color: darkviolet;
+  padding: 10px;
+  font-weight: bold;
 }
-#input1{
-  position: relative;
-  top: 120px;
-  left: -100px;
-  background-color:chartreuse ;
-  color:darkmagenta;
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
 }
-h3{
-  position: relative;
-  top: 10px;
+
+/* Buttons */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
-h2{
-  position: relative;
-  top: 20px;
+
+button:hover {
+  opacity: 0.8;
 }
-#input2{
-  position: relative;
-  top: 20px;
+
+.edit-btn {
+  background-color: orange;
+  color: white;
 }
-#h3{
-  position: relative;
-  top: 50px;
+
+.delete-btn {
+  background-color: red;
+  color: white;
 }
-#input3{
-  position: relative;
-  top: 40px;
-  left: 65px;
-}
-#table{
-  position: relative;
-  top: 100px;
+
+.toggle-btn {
+  background-color: blueviolet;
+  color: white;
+  margin-top: 10px;
 }
